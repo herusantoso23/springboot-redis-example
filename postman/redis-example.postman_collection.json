@@ -1,0 +1,160 @@
+{
+	"id": "aae51a41-3360-da8b-8ae4-d81c9e5a2e4d",
+	"name": "redis-example",
+	"description": "",
+	"order": [
+		"b0ccc9f0-02f9-e457-3ef6-191c71cb7969",
+		"633bbd8f-a116-a7bb-8902-02656087abd0",
+		"fe1793d5-de4a-79f5-ed2a-eb8fe3e200a9",
+		"c7ab706d-d929-8bcb-5a2d-9049cb1b818a",
+		"61d2e1bf-5da2-6c35-4666-8a8208495e92"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1519639218412,
+	"owner": "3671380",
+	"public": false,
+	"requests": [
+		{
+			"id": "61d2e1bf-5da2-6c35-4666-8a8208495e92",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/person/get-detail?id=2",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "aae51a41-3360-da8b-8ae4-d81c9e5a2e4d",
+			"data": [],
+			"dataMode": "raw",
+			"name": "get-detail",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1519640846389,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "633bbd8f-a116-a7bb-8902-02656087abd0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/person/add",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519640765681,
+			"name": "add",
+			"description": "",
+			"collectionId": "aae51a41-3360-da8b-8ae4-d81c9e5a2e4d",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":\"2\",\n\t\"name\":\"Heru Santoso\",\n\t\"address\":\"Subang\"\n\t\n}"
+		},
+		{
+			"id": "b0ccc9f0-02f9-e457-3ef6-191c71cb7969",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/person/get-all",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519639245334,
+			"name": "get-all",
+			"description": "",
+			"collectionId": "aae51a41-3360-da8b-8ae4-d81c9e5a2e4d",
+			"responses": []
+		},
+		{
+			"id": "c7ab706d-d929-8bcb-5a2d-9049cb1b818a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/api/person/delete/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "aae51a41-3360-da8b-8ae4-d81c9e5a2e4d",
+			"data": null,
+			"dataMode": "params",
+			"name": "delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1519640761519,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fe1793d5-de4a-79f5-ed2a-eb8fe3e200a9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/person/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519640849313,
+			"name": "update",
+			"description": "",
+			"collectionId": "aae51a41-3360-da8b-8ae4-d81c9e5a2e4d",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":\"2\",\n\t\"name\":\"Heru Santoso\",\n\t\"address\":\"West Java\"\n\t\n}"
+		}
+	]
+}
